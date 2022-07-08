@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 70px;
+  background-color: aliceblue;
+  font-size: 20px;
+  color: black;
+}
+.btn {
+  cursor: pointer;
+  background-color: black;
+  color: wheat;
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
